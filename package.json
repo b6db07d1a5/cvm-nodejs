@@ -1,0 +1,17 @@
+{
+  "name": "cvm-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/b6db07d1a5/cvm-nodejs.git",
+  "author": "b6db07d1a5",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "os-utils": "^0.0.14"
+  }
+}
