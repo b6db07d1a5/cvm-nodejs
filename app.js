@@ -14,8 +14,11 @@ app.get('/heavy-ping', (req, res) => {
 
     for (let i = 0; i < n; i++) {
         for (let j = 0; j < n; j++) {
-
-            sum = (i + j) - (j + i) - 1;
+            for (let k = 0; k < n; k++) {
+                for (let l = 0; l < n; l++) {
+                    sum = (i * .01 + j * .02 + k * .03 + l * 0.4) - (i * 0.7 + j * 0.6 + k * 0.5 + l * 0.4) - 1;
+                }
+            }
         }
     }
 
